@@ -1273,6 +1273,10 @@ body {
 .cid-qKLK1yLMXE .collapsed .navbar-collapse.show .navbar-nav .nav-item {
   clear: both;
 }
+.cid-qKLK1yLMXE .collapsed .navbar-collapse.collapsing .navbar-nav .nav-item:last-child,
+.cid-qKLK1yLMXE .collapsed .navbar-collapse.show .navbar-nav .nav-item:last-child {
+  margin-bottom: 1rem;
+}
 .cid-qKLK1yLMXE .collapsed .navbar-collapse.collapsing .navbar-buttons,
 .cid-qKLK1yLMXE .collapsed .navbar-collapse.show .navbar-buttons {
   display: flex;
@@ -1376,6 +1380,10 @@ body {
   .cid-qKLK1yLMXE .navbar-collapse.show .navbar-nav .nav-item {
     clear: both;
   }
+  .cid-qKLK1yLMXE .navbar-collapse.collapsing .navbar-nav .nav-item:last-child,
+  .cid-qKLK1yLMXE .navbar-collapse.show .navbar-nav .nav-item:last-child {
+    margin-bottom: 1rem;
+  }
   .cid-qKLK1yLMXE .navbar-collapse.collapsing .navbar-buttons,
   .cid-qKLK1yLMXE .navbar-collapse.show .navbar-buttons {
     display: flex;
@@ -1457,7 +1465,7 @@ body {
   color: #4284df;
 }
 .cid-qKLvN7Yhzi {
-  background-image: url("../../../assets/images/andrew-rice-433417-unsplash-2000x1207.jpg");
+  background-image: url("../../../assets/images/juan-gomez-37083-unsplash-1-2000x2666.jpg");
 }
 .cid-qKLvN7Yhzi .media-container-column .btn-bgr {
   z-index: 0;
@@ -1541,7 +1549,7 @@ body {
   }
 }
 .cid-qKLLDlyvi6 {
-  background-image: url("../../../assets/images/igor-ovsyannykov-270977-unsplash-2000x1333.jpg");
+  background-image: url("../../../assets/images/tyson-dudley-122441-unsplash-2000x1125.jpg");
 }
 .cid-qKLLDlyvi6 .text-content {
   padding-top: 90px;
