@@ -864,12 +864,6 @@ body {
   transition: none;
   min-height: 77px;
 }
-@media (min-width: 992px) {
-  .cid-qLqypHkWGl .navbar .dropdown .dropdown-menu .dropdown-item {
-    padding: 0.235em 2.5385em 0.235em 3.5385em !important;
-    margin: 0 !important;
-  }
-}
 .cid-qLqypHkWGl .menu-logo {
   display: flex;
   position: relative;
@@ -952,6 +946,7 @@ body {
 .cid-qLqypHkWGl .navbar-nav {
   position: relative;
   min-height: 60px;
+  margin: 0!important;
   -ms-flex-direction: row;
   flex-direction: row;
 }
@@ -969,9 +964,6 @@ body {
   }
   .cid-qLqypHkWGl .navbar-nav .main-menu-animated-line.bottom {
     bottom: 0;
-  }
-  .cid-qLqypHkWGl .navbar-nav .nav-item a {
-    margin: 0 1.3rem !important;
   }
 }
 @media (max-width: 991px) {
@@ -1186,7 +1178,7 @@ body {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #ffffff;
+  background-color: #e9ea88;
 }
 .cid-qLqypHkWGl button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
@@ -1558,7 +1550,7 @@ body {
   z-index: 0;
 }
 .cid-qKLKH38d68 .mbr-overlay {
-  background: linear-gradient(#d6173f -10%, #00113e 75%);
+  background: linear-gradient(#6c8b30 -10%, #00113e 75%);
 }
 .cid-qKLKH38d68 .container-full-width {
   position: relative;
@@ -1621,6 +1613,9 @@ body {
     height: 33rem;
   }
 }
+.cid-qKLKH38d68 B {
+  color: #6c8b30;
+}
 .cid-qKLLDlyvi6 {
   background-image: url("../../../assets/images/tyson-dudley-122441-unsplash-2000x1125.jpg");
 }
@@ -1632,7 +1627,7 @@ body {
   z-index: 0;
 }
 .cid-qKLLDlyvi6 .mbr-overlay {
-  background: linear-gradient(90deg, #d6173f, #4284df);
+  background: linear-gradient(90deg, #00113e, #6c8b30);
 }
 .cid-qKLLDlyvi6 h3 {
   color: #000000;
@@ -1689,8 +1684,67 @@ body {
 .cid-qKLLDlyvi6 .mbr-section-title {
   text-align: center;
 }
-.cid-qKLMkiZYL6 {
+.cid-qKLLDlyvi6 B {
+  color: #6c8b30;
+}
+.cid-qLqYXtKbKA {
   padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #6c8b30;
+}
+.cid-qLqYXtKbKA .mbr-overlay {
+  background: linear-gradient(90deg, #21b968, #4284df);
+}
+.cid-qLqYXtKbKA h3 {
+  color: #FFFFFF;
+  font-weight: 500;
+}
+.cid-qLqYXtKbKA p {
+  color: #FFFFFF;
+}
+.cid-qLqYXtKbKA h4 {
+  color: #FFFFFF;
+  display: none;
+}
+.cid-qLqYXtKbKA .mbr-figure img {
+  padding-left: 1rem;
+}
+.cid-qLqYXtKbKA .counter-container {
+  color: #767676;
+  padding-right: 4rem;
+  counter-reset: myCounter;
+  padding-left: 5rem;
+}
+.cid-qLqYXtKbKA .counter-container div {
+  margin-bottom: 1rem;
+  padding-left: .5rem;
+}
+.cid-qLqYXtKbKA .counter-container li {
+  list-style: none;
+  padding-left: 6rem;
+  position: relative;
+}
+.cid-qLqYXtKbKA .counter-container .counter {
+  text-overflow: clip;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 40px;
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  margin: 0 0 5px;
+  line-height: 40px;
+  transition: all .2s;
+  width: 60px;
+  height: 40px;
+}
+@media (max-width: 575px) {
+  .cid-qLqYXtKbKA .counter-container .counter {
+    left: 2rem;
+  }
+}
+.cid-qKLMkiZYL6 {
+  padding-top: 30px;
   padding-bottom: 90px;
   background-color: #6c8b30;
 }
